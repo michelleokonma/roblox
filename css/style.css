@@ -1,0 +1,122 @@
+/* fonts
+font-family: "cubano", sans-serif;
+font-weight: 400;
+font-style: normal;
+	
+font-family: "signo", sans-serif;
+font-weight: 400;
+font-style: normal;
+*/
+	
+
+@import url('https://use.typekit.net/zby4exq.css');
+
+/* CSS Document */
+
+body, nav, header, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, table, audio, video, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+	
+/* nav */
+
+header h2 {
+	text-align: center;
+	font-size: 7em;
+	font-family: "cubano", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #93B4FF;
+	text-shadow: 5px 3px 2px #384174;
+	margin: 10px 10px 100px 10px;
+}
+
+body {
+	background-color: #E8E6F5;
+}
+
+nav {
+	background-color: #0D064E;
+	border-radius: 0 0 3em 3em;
+	width: 100%;
+}
+	
+nav ul {
+	margin: 0 auto;
+	list-type-style: none;
+	text-align: left;
+}
+	
+nav li {
+	display: inline-block;
+	border: none;
+}
+	
+nav li a {
+	display: block;
+	color: #C9C4EA;
+	padding: 0.1em 0.75em;
+	text-decoration: none;
+	text-align: left;
+	margin-left: 0;
+	font-family: "cubano", sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+nav ul li {
+	background-color: #0D064E;
+}
+
+/* main */
+
+main img {
+	max-width: 30em;
+	border-radius: 3em;
+	float: left;
+	margin: 0 20px;
+}
+
+#currency img {
+	float: right;
+}
+
+main p {
+	font-size: 20px;
+	font-family: "signo", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	color: #0D064E;
+	text-align: justify;
+}
+
+main h2 {
+	font-size: 2em;
+	font-family: "cubano", sans-serif;
+	font-weight: 250;
+	font-style: normal;
+	color: #384174;
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+form {
+	width: auto;
+}
+
+	
+/* footer */
+
+footer p {
+	margin: 300px 35px;
+	float: bottom;
+	font-size: 1em;
+	font-family: "signo", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
